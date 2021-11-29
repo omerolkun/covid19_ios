@@ -8,7 +8,6 @@
 import UIKit
 import DropDown
 
-
 class ViewController: UIViewController {
     @IBOutlet weak var vwDropdDown:UIView!
     @IBOutlet weak var lb1title:UILabel!
@@ -17,9 +16,15 @@ class ViewController: UIViewController {
     let dropDownValues = ["omer","berdan"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        lb1title.text = "Select a city"
         // Do any additional setup after loading the view.
         dropDown.anchorView = vwDropdDown
         dropDown.dataSource = dropDownValues
+        //sdfgdhgfghgfgdgfhgdgtgfhg
+        dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
+            self.lb1title.text = dropDownValues[index]
+        }
+
         
     }
     
