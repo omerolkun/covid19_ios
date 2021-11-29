@@ -7,95 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0283A87C28F73669E5C94AC36FC0F3F6 /* Pods-covid20_survey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF93220EF4427140E8604C51038BE38 /* Pods-covid20_survey-dummy.m */; };
+		02687AB61DAD0B9D38B1D586478CEC35 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 921D3D8FA80123709D52A1E2BEF7DF57 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06B65C2F81D1BE1E9B8A4027279AF5A4 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CC1A331D12D225EACE7345FD06D8F /* SCLExtensions.swift */; };
+		0E53D74D034F2295ADFE4287D4AD3169 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6650F4D09DCEC500A7EB5FD90B8B3DB9 /* SCLAlertView.swift */; };
 		170744F00756996B4BADF424CE937A2B /* Pods-covid20_surveyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A5603EA0D5AC38A74DE0A9262DED4B /* Pods-covid20_surveyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		300BE7E36C05B0B52E40496D08A6CCC1 /* Pods-covid20_survey-covid20_surveyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F3CCEDEDAD81B6DCA9C7028B4F6C3C /* Pods-covid20_survey-covid20_surveyUITests-dummy.m */; };
 		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3BCAB1D2790263BB08504B15F183C836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3D2DCF5936FBEEAD2086650026C26B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
-		5D91AF945CD3D62DECB82E5712658E80 /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F629EFC5DF6EE3A84CA609C2962D3D7 /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
-		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
-		77656E5129F1B1DFCB824E43B06210D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
-		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
-		8A7AD9A3249CC8A18EB2744ABA6EDB88 /* Pods-covid20_survey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C47E1A5E684246EA042966532A385CEF /* Pods-covid20_survey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
-		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
-		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
-		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46C892F73B1BB8E0601A1C3DE3A12E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		46DD6EEA96D8FF8ED37D66877A515E9B /* Pods-covid20_survey-covid20_surveyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F3CCEDEDAD81B6DCA9C7028B4F6C3C /* Pods-covid20_survey-covid20_surveyUITests-dummy.m */; };
+		5085E6E416A19D3925F1FF225CD50EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE81EF92862D14A8BC39D16EC1885CA /* DropDown+Appearance.swift */; };
+		5F7CEF288C65D1D15B52100BC5FEDC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C5877A845393AE7ED06FDA65DB53C77 /* DropDownCell.xib */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891B96DD6C33924A0F62CD8721BCC67 /* DPDConstants.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FC607E2526754D2675DE4C8E1AD717 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F9189A8F4370412D8223374AB4CD8 /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE416499F561E3E49C3DEE399BA03E3B /* DropDown-dummy.m */; };
+		9894703B12A4E7BC0B84758A98684C74 /* Pods-covid20_survey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C47E1A5E684246EA042966532A385CEF /* Pods-covid20_survey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0CC15D24262CBFBB628BAB03C3F9C12 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F3E98834323390AD3899FBA5A8C12C /* SCLAlertView-dummy.m */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDCCAF822AA7ED989F736393622E47 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F85B8069C260744AE1FD90A8068184 /* DropDownCell.swift */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D484F24EE02BE46220652C6F5F987093 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E12645BBFD3414BCFDD4BC95F2D0EC /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F629EFC5DF6EE3A84CA609C2962D3D7 /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F692D0CBF58A1A9EEAB63A1B6E18D1CF /* Pods-covid20_survey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF93220EF4427140E8604C51038BE38 /* Pods-covid20_survey-dummy.m */; };
 		F91B510E08D4F0E58432680221AA8F6B /* Pods-covid20_surveyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D18D6DAFF196B31EFDD1B5651423E0 /* Pods-covid20_surveyTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6DE6C17B3187EC8C4F22EF47F638545 /* PBXContainerItemProxy */ = {
+		1591D66211496B92CA9CED6288F7E82A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
-		CDFDFCE6D3A85BCDB0E17390260C4414 /* PBXContainerItemProxy */ = {
+		2F5FEF5474E9D7C5750B31C9205CAD2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
 			remoteInfo = DropDown;
 		};
-		E847B3718C74CFB56216981C99D995FD /* PBXContainerItemProxy */ = {
+		5F8712A7B0FBDCD66E1B17ECBDAFB92F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B3251F801ED54F2BAE675647F8252FE8;
 			remoteInfo = "Pods-covid20_survey";
 		};
+		7F33F1D26CD61A93CDD3E0875CA8EEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0152970E5467A11DF89E7D22C63B47C;
+			remoteInfo = SCLAlertView;
+		};
+		A19BC24F5B6FA8452D721E56B101C722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0152970E5467A11DF89E7D22C63B47C;
+			remoteInfo = SCLAlertView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03DA8D2EC59358D9D242C4DFD6A6FBB1 /* Pods-covid20_surveyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_surveyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		08D7DAA2264D39786238B87DBED673FE /* Pods-covid20_surveyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-covid20_surveyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D3F9189A8F4370412D8223374AB4CD8 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		16B85E34EA629D105413A047BC1CC7BE /* Pods-covid20_survey-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-covid20_survey-frameworks.sh"; sourceTree = "<group>"; };
 		172EC0D36BDA05EDB76AD674666AB5AB /* Pods-covid20_surveyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_surveyTests-Info.plist"; sourceTree = "<group>"; };
+		1ABDCCAF822AA7ED989F736393622E47 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		219D3CB9FF1F19B012B143BB778A4DEC /* Pods-covid20_survey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_survey.debug.xcconfig"; sourceTree = "<group>"; };
 		281CA6BB763795A5B7C1299F79CCDFAD /* Pods-covid20_survey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_survey.release.xcconfig"; sourceTree = "<group>"; };
-		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		36B1E154CDA46C844F298EBFF16201BA /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		3EE81EF92862D14A8BC39D16EC1885CA /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		411730C4091A56E1ED2568614A159BD8 /* Pods-covid20_survey-covid20_surveyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-covid20_survey-covid20_surveyUITests"; path = Pods_covid20_survey_covid20_surveyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		43FC607E2526754D2675DE4C8E1AD717 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		45DEEA6DD8689CBDB61208D5908EB68F /* Pods-covid20_survey-covid20_surveyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_survey-covid20_surveyUITests-Info.plist"; sourceTree = "<group>"; };
 		47DBDFD35AC946852D997901740E07D4 /* Pods-covid20_survey-covid20_surveyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_survey-covid20_surveyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		48D18D6DAFF196B31EFDD1B5651423E0 /* Pods-covid20_surveyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covid20_surveyTests-dummy.m"; sourceTree = "<group>"; };
 		49A5603EA0D5AC38A74DE0A9262DED4B /* Pods-covid20_surveyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-covid20_surveyTests-umbrella.h"; sourceTree = "<group>"; };
 		4EA3F24C9A8B699628539C23BF308C84 /* Pods-covid20_surveyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-covid20_surveyTests"; path = Pods_covid20_surveyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A34920CA2489576050E921C8394474 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		6650F4D09DCEC500A7EB5FD90B8B3DB9 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		68F85B8069C260744AE1FD90A8068184 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		6B950C61FCD93E52BEFEA3B117F0AA86 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		7891B96DD6C33924A0F62CD8721BCC67 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
 		7CD268573549B08807435164609C95C6 /* Pods-covid20_survey-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_survey-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F275A81496FDA7C2B262C31614714C9 /* Pods-covid20_surveyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covid20_surveyTests.modulemap"; sourceTree = "<group>"; };
-		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		82A93C8DAD916D83F1ECD9FC979352F9 /* SCLAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCLAlertView-Info.plist"; sourceTree = "<group>"; };
+		859E0FB12BF009E54474524521B304FC /* SCLAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		888AA642280885582BC5F3D0A54A4C21 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		8C5877A845393AE7ED06FDA65DB53C77 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		8F629EFC5DF6EE3A84CA609C2962D3D7 /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-covid20_survey-covid20_surveyUITests-umbrella.h"; sourceTree = "<group>"; };
-		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		921D3D8FA80123709D52A1E2BEF7DF57 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
 		94397A04A4297BA5083E6F1B407EFC95 /* Pods-covid20_survey */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-covid20_survey"; path = Pods_covid20_survey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		9C83FB8428FCCE885DD588B6F455F08A /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		A3F3E98834323390AD3899FBA5A8C12C /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
 		ABF93220EF4427140E8604C51038BE38 /* Pods-covid20_survey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covid20_survey-dummy.m"; sourceTree = "<group>"; };
-		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		AE416499F561E3E49C3DEE399BA03E3B /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		B14B96E685589AC07F2DF3882C5DB0E7 /* Pods-covid20_survey-covid20_surveyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-covid20_survey-covid20_surveyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4965630A4CD0C3330840B22428FA9E8 /* Pods-covid20_survey-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-covid20_survey-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B89ED534093BC25AD185E6E013CD7507 /* Pods-covid20_survey-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_survey-Info.plist"; sourceTree = "<group>"; };
+		BB59795B9E9E2C8541289EC236364776 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
 		C47E1A5E684246EA042966532A385CEF /* Pods-covid20_survey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-covid20_survey-umbrella.h"; sourceTree = "<group>"; };
 		C9EDEDC34CFDA739841D11926E5CD922 /* Pods-covid20_survey-covid20_surveyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-covid20_survey-covid20_surveyUITests-frameworks.sh"; sourceTree = "<group>"; };
 		CCA4127DF546BDCF8247608094DE3599 /* Pods-covid20_surveyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_surveyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4228988A0810383D5BE6B2D2E28FCB3 /* SCLAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.release.xcconfig; sourceTree = "<group>"; };
+		D484F24EE02BE46220652C6F5F987093 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		D76CC1A331D12D225EACE7345FD06D8F /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
 		DA0EBA0D0B0A4DF85030219425E531D3 /* Pods-covid20_surveyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covid20_surveyTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
-		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
-		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		ED845466CD93793C50177620FD918B16 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		F050AD869CB946154C35F9BF4B9707F3 /* Pods-covid20_survey-covid20_surveyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_survey-covid20_surveyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5F3041BC04ED0C976C5E268521D5458 /* Pods-covid20_survey-covid20_surveyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covid20_survey-covid20_surveyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		F9F3CCEDEDAD81B6DCA9C7028B4F6C3C /* Pods-covid20_survey-covid20_surveyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covid20_survey-covid20_surveyUITests-dummy.m"; sourceTree = "<group>"; };
 		FBCBE58A2106BFA77F286B178EC97FD3 /* Pods-covid20_survey-covid20_surveyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covid20_survey-covid20_surveyUITests.modulemap"; sourceTree = "<group>"; };
 		FC9BF15DB2D20C88A6C0A1D5C37F22F0 /* Pods-covid20_survey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covid20_survey.modulemap"; sourceTree = "<group>"; };
@@ -118,73 +147,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8A0718CF088FDC3BEE9DD7274E63EC6 /* Frameworks */ = {
+		81BCC1AFE046591A1789D9C952E1660D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77656E5129F1B1DFCB824E43B06210D6 /* Foundation.framework in Frameworks */,
+				46C892F73B1BB8E0601A1C3DE3A12E05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8F92D42E70F2277F33FD37D1052DE2A /* Frameworks */ = {
+		99DA1F6D40CC9FC53F08169A4216B26E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCAB1D2790263BB08504B15F183C836 /* Foundation.framework in Frameworks */,
+				5085E6E416A19D3925F1FF225CD50EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AE7DF05875BF448F7B982252507518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7CEF288C65D1D15B52100BC5FEDC94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
+		057CC3E4135D4C28EF8AF8A2783B9A25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
-				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
-				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
-				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
-				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
-				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
-				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
+				8C5877A845393AE7ED06FDA65DB53C77 /* DropDownCell.xib */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
+		12FA7720793E855730B3D8D25E307798 /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
+				6650F4D09DCEC500A7EB5FD90B8B3DB9 /* SCLAlertView.swift */,
+				D76CC1A331D12D225EACE7345FD06D8F /* SCLExtensions.swift */,
+				EE6065FBE1E035F93C32A535220F1BCB /* Support Files */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		351308D2F0B01DD023F92F0030D98EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F64857A478E540BD80D74F79641D9A2 /* DropDown */,
+				12FA7720793E855730B3D8D25E307798 /* SCLAlertView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
+		3F64857A478E540BD80D74F79641D9A2 /* DropDown */ = {
 			isa = PBXGroup;
 			children = (
-				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
-				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
-				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
-				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
-				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
-				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
-				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
-				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
+				7891B96DD6C33924A0F62CD8721BCC67 /* DPDConstants.swift */,
+				0D3F9189A8F4370412D8223374AB4CD8 /* DPDKeyboardListener.swift */,
+				1ABDCCAF822AA7ED989F736393622E47 /* DPDUIView+Extension.swift */,
+				43FC607E2526754D2675DE4C8E1AD717 /* DropDown.swift */,
+				3EE81EF92862D14A8BC39D16EC1885CA /* DropDown+Appearance.swift */,
+				68F85B8069C260744AE1FD90A8068184 /* DropDownCell.swift */,
+				057CC3E4135D4C28EF8AF8A2783B9A25 /* Resources */,
+				F63D5AC1C402C074CEAC8B572D0A5613 /* Support Files */,
 			);
 			name = DropDown;
 			path = DropDown;
-			sourceTree = "<group>";
-		};
-		183296C001DFB4D4830CBFBF67365817 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
-				94397A04A4297BA5083E6F1B407EFC95 /* Pods-covid20_survey */,
-				411730C4091A56E1ED2568614A159BD8 /* Pods-covid20_survey-covid20_surveyUITests */,
-				4EA3F24C9A8B699628539C23BF308C84 /* Pods-covid20_surveyTests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -203,6 +234,18 @@
 				CD7AD67AE2098080EB776FF26FD7CA8C /* Pods-covid20_surveyTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B56BC2D5235C6728760206F7EE163AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				94397A04A4297BA5083E6F1B407EFC95 /* Pods-covid20_survey */,
+				411730C4091A56E1ED2568614A159BD8 /* Pods-covid20_survey-covid20_surveyUITests */,
+				4EA3F24C9A8B699628539C23BF308C84 /* Pods-covid20_surveyTests */,
+				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9E57E98832BD6504963775FEE04A30D6 /* Pods-covid20_survey-covid20_surveyUITests */ = {
@@ -239,14 +282,6 @@
 			path = "Target Support Files/Pods-covid20_survey";
 			sourceTree = "<group>";
 		};
-		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		CD7AD67AE2098080EB776FF26FD7CA8C /* Pods-covid20_surveyTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,8 +303,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
-				183296C001DFB4D4830CBFBF67365817 /* Products */,
+				351308D2F0B01DD023F92F0030D98EBC /* Pods */,
+				8B56BC2D5235C6728760206F7EE163AF /* Products */,
 				579EF1333829195265103A0A291FDECB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -280,6 +315,36 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE6065FBE1E035F93C32A535220F1BCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B950C61FCD93E52BEFEA3B117F0AA86 /* SCLAlertView.modulemap */,
+				A3F3E98834323390AD3899FBA5A8C12C /* SCLAlertView-dummy.m */,
+				82A93C8DAD916D83F1ECD9FC979352F9 /* SCLAlertView-Info.plist */,
+				64A34920CA2489576050E921C8394474 /* SCLAlertView-prefix.pch */,
+				921D3D8FA80123709D52A1E2BEF7DF57 /* SCLAlertView-umbrella.h */,
+				859E0FB12BF009E54474524521B304FC /* SCLAlertView.debug.xcconfig */,
+				D4228988A0810383D5BE6B2D2E28FCB3 /* SCLAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		F63D5AC1C402C074CEAC8B572D0A5613 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				888AA642280885582BC5F3D0A54A4C21 /* DropDown.modulemap */,
+				AE416499F561E3E49C3DEE399BA03E3B /* DropDown-dummy.m */,
+				36B1E154CDA46C844F298EBFF16201BA /* DropDown-Info.plist */,
+				9C83FB8428FCCE885DD588B6F455F08A /* DropDown-prefix.pch */,
+				D484F24EE02BE46220652C6F5F987093 /* DropDown-umbrella.h */,
+				BB59795B9E9E2C8541289EC236364776 /* DropDown.debug.xcconfig */,
+				ED845466CD93793C50177620FD918B16 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,11 +358,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EEF31E4515E2CE02322B1246F77DB66 /* Headers */ = {
+		8B99F784B88D0F7B829EAB42CE3E051F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7AD9A3249CC8A18EB2744ABA6EDB88 /* Pods-covid20_survey-umbrella.h in Headers */,
+				E4E12645BBFD3414BCFDD4BC95F2D0EC /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +374,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC62C002F5FBBA26E9A1DC9852C645B3 /* Headers */ = {
+		AD69AF31002BB77E82728D8F4938C528 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D91AF945CD3D62DECB82E5712658E80 /* Pods-covid20_survey-covid20_surveyUITests-umbrella.h in Headers */,
+				02687AB61DAD0B9D38B1D586478CEC35 /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBC49AB0F1D36BD68FAA890CCD67331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9894703B12A4E7BC0B84758A98684C74 /* Pods-covid20_survey-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +405,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA2AE3FF10599C27C6FD24539DA628E2 /* PBXTargetDependency */,
+				A4F33EFFB27BC07328C0E04B4E9A5815 /* PBXTargetDependency */,
 			);
 			name = "Pods-covid20_surveyTests";
 			productName = Pods_covid20_surveyTests;
@@ -341,17 +414,18 @@
 		};
 		98DBAC1382E93C26CDA78F33C5E7406E /* Pods-covid20_survey-covid20_surveyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52226D3BFB6D0424E7F3C80CEB612A95 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey-covid20_surveyUITests" */;
+			buildConfigurationList = F698907769EA0C80E440CDCD2243D29C /* Build configuration list for PBXNativeTarget "Pods-covid20_survey-covid20_surveyUITests" */;
 			buildPhases = (
-				AC62C002F5FBBA26E9A1DC9852C645B3 /* Headers */,
-				BD0B2CD98F98594E0965DBC491222F2B /* Sources */,
-				E8F92D42E70F2277F33FD37D1052DE2A /* Frameworks */,
-				CEA84F1C6C5AD62C2CF7941C9FEADB9F /* Resources */,
+				8B99F784B88D0F7B829EAB42CE3E051F /* Headers */,
+				41896405FBC051E20B347A8CD1E0610B /* Sources */,
+				D3AE7DF05875BF448F7B982252507518 /* Frameworks */,
+				5AB5482E7C367CC0A8C9A228AB408A8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E9E442353DD5033A226AB20D7C35AC2 /* PBXTargetDependency */,
+				1AB7A8263AD9BB6E07BD83F471DDFB06 /* PBXTargetDependency */,
+				CDFA547198BBA1A6E5D7C508941C278A /* PBXTargetDependency */,
 			);
 			name = "Pods-covid20_survey-covid20_surveyUITests";
 			productName = Pods_covid20_survey_covid20_surveyUITests;
@@ -360,21 +434,40 @@
 		};
 		B3251F801ED54F2BAE675647F8252FE8 /* Pods-covid20_survey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 484079E58316F3B5439F0B4B131CDDD5 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey" */;
+			buildConfigurationList = E7D7E17E6746AC80EADEFEF2804CB296 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey" */;
 			buildPhases = (
-				4EEF31E4515E2CE02322B1246F77DB66 /* Headers */,
-				0816692F3773EA0D0DAB7CFC20755A0C /* Sources */,
-				A8A0718CF088FDC3BEE9DD7274E63EC6 /* Frameworks */,
-				3AE496575ECB455351A58FD7EAEBC85A /* Resources */,
+				BEBC49AB0F1D36BD68FAA890CCD67331 /* Headers */,
+				4EA97B86B9ED383EA410F2DC0FE104D3 /* Sources */,
+				99DA1F6D40CC9FC53F08169A4216B26E /* Frameworks */,
+				2419777DEB785A38A7AD171A9A502D20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF8FAA1D4E97198BB11359868D830307 /* PBXTargetDependency */,
+				9B07FC96DA1E5C4F4567EFC52B06773D /* PBXTargetDependency */,
+				57897C93328ABA864D62869C8ACAE5D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-covid20_survey";
 			productName = Pods_covid20_survey;
 			productReference = 94397A04A4297BA5083E6F1B407EFC95 /* Pods-covid20_survey */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA4190E459520E55CDB9229CC97FDD9 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				AD69AF31002BB77E82728D8F4938C528 /* Headers */,
+				E49F46F5ACD0AFF941AB6201E661D446 /* Sources */,
+				81BCC1AFE046591A1789D9C952E1660D /* Frameworks */,
+				D1E7A4C5BCE494C5EEF014EEC11D5B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */;
 			productType = "com.apple.product-type.framework";
 		};
 		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
@@ -413,7 +506,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 183296C001DFB4D4830CBFBF67365817 /* Products */;
+			productRefGroup = 8B56BC2D5235C6728760206F7EE163AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -421,12 +514,13 @@
 				B3251F801ED54F2BAE675647F8252FE8 /* Pods-covid20_survey */,
 				98DBAC1382E93C26CDA78F33C5E7406E /* Pods-covid20_survey-covid20_surveyUITests */,
 				4726244FFE2D3C68E13B4020AAD02486 /* Pods-covid20_surveyTests */,
+				E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3AE496575ECB455351A58FD7EAEBC85A /* Resources */ = {
+		2419777DEB785A38A7AD171A9A502D20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +534,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA84F1C6C5AD62C2CF7941C9FEADB9F /* Resources */ = {
+		5AB5482E7C367CC0A8C9A228AB408A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E7A4C5BCE494C5EEF014EEC11D5B7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,11 +559,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0816692F3773EA0D0DAB7CFC20755A0C /* Sources */ = {
+		41896405FBC051E20B347A8CD1E0610B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0283A87C28F73669E5C94AC36FC0F3F6 /* Pods-covid20_survey-dummy.m in Sources */,
+				46DD6EEA96D8FF8ED37D66877A515E9B /* Pods-covid20_survey-covid20_surveyUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +581,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EA97B86B9ED383EA410F2DC0FE104D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F692D0CBF58A1A9EEAB63A1B6E18D1CF /* Pods-covid20_survey-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E0A8E3870453621D62ECBBC4105A51E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,41 +597,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD0B2CD98F98594E0965DBC491222F2B /* Sources */ = {
+		E49F46F5ACD0AFF941AB6201E661D446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				300BE7E36C05B0B52E40496D08A6CCC1 /* Pods-covid20_survey-covid20_surveyUITests-dummy.m in Sources */,
+				0E53D74D034F2295ADFE4287D4AD3169 /* SCLAlertView.swift in Sources */,
+				A0CC15D24262CBFBB628BAB03C3F9C12 /* SCLAlertView-dummy.m in Sources */,
+				06B65C2F81D1BE1E9B8A4027279AF5A4 /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E9E442353DD5033A226AB20D7C35AC2 /* PBXTargetDependency */ = {
+		1AB7A8263AD9BB6E07BD83F471DDFB06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = C6DE6C17B3187EC8C4F22EF47F638545 /* PBXContainerItemProxy */;
+			targetProxy = 1591D66211496B92CA9CED6288F7E82A /* PBXContainerItemProxy */;
 		};
-		EA2AE3FF10599C27C6FD24539DA628E2 /* PBXTargetDependency */ = {
+		57897C93328ABA864D62869C8ACAE5D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */;
+			targetProxy = A19BC24F5B6FA8452D721E56B101C722 /* PBXContainerItemProxy */;
+		};
+		9B07FC96DA1E5C4F4567EFC52B06773D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 2F5FEF5474E9D7C5750B31C9205CAD2C /* PBXContainerItemProxy */;
+		};
+		A4F33EFFB27BC07328C0E04B4E9A5815 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-covid20_survey";
 			target = B3251F801ED54F2BAE675647F8252FE8 /* Pods-covid20_survey */;
-			targetProxy = E847B3718C74CFB56216981C99D995FD /* PBXContainerItemProxy */;
+			targetProxy = 5F8712A7B0FBDCD66E1B17ECBDAFB92F /* PBXContainerItemProxy */;
 		};
-		EF8FAA1D4E97198BB11359868D830307 /* PBXTargetDependency */ = {
+		CDFA547198BBA1A6E5D7C508941C278A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DropDown;
-			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = CDFDFCE6D3A85BCDB0E17390260C4414 /* PBXContainerItemProxy */;
+			name = SCLAlertView;
+			target = E0152970E5467A11DF89E7D22C63B47C /* SCLAlertView */;
+			targetProxy = 7F33F1D26CD61A93CDD3E0875CA8EEF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3FDD6032BB42F977C0BE5319C1F14A2E /* Debug */ = {
+		094C08DE3AA8FA6F5109A6243996348D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 219D3CB9FF1F19B012B143BB778A4DEC /* Pods-covid20_survey.debug.xcconfig */;
+			baseConfigurationReference = F5F3041BC04ED0C976C5E268521D5458 /* Pods-covid20_survey-covid20_surveyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -534,7 +657,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey-covid20_surveyUITests/Pods-covid20_survey-covid20_surveyUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,7 +666,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey-covid20_surveyUITests/Pods-covid20_survey-covid20_surveyUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -552,10 +675,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		620567653FB82168032D2EA38F35E660 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -594,9 +718,47 @@
 			};
 			name = Debug;
 		};
-		8B6FBDC990FEFA7B1D8139114D61212A /* Release */ = {
+		6ECB12EA599ED71FE654B0401ED8F7BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F3041BC04ED0C976C5E268521D5458 /* Pods-covid20_survey-covid20_surveyUITests.release.xcconfig */;
+			baseConfigurationReference = 281CA6BB763795A5B7C1299F79CCDFAD /* Pods-covid20_survey.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71F869A412A9431AA3F918564B5553D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F050AD869CB946154C35F9BF4B9707F3 /* Pods-covid20_survey-covid20_surveyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -626,11 +788,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -698,44 +859,6 @@
 			};
 			name = Debug;
 		};
-		91E21D71E81B1CE6FD8725663AC5CD25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 281CA6BB763795A5B7C1299F79CCDFAD /* Pods-covid20_survey.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -798,9 +921,43 @@
 			};
 			name = Release;
 		};
-		9F7B480EF09174A357BFD672BA8AC297 /* Debug */ = {
+		9F133C6B20D9ACF9778A04B01E53C740 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F050AD869CB946154C35F9BF4B9707F3 /* Pods-covid20_survey-covid20_surveyUITests.debug.xcconfig */;
+			baseConfigurationReference = 859E0FB12BF009E54474524521B304FC /* SCLAlertView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAEC77DBD3A26553025B7DF52A976E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219D3CB9FF1F19B012B143BB778A4DEC /* Pods-covid20_survey.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -812,7 +969,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey-covid20_surveyUITests/Pods-covid20_survey-covid20_surveyUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -821,7 +978,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey-covid20_surveyUITests/Pods-covid20_survey-covid20_surveyUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-covid20_survey/Pods-covid20_survey.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -837,7 +994,7 @@
 		};
 		C24518E891FAA59668669823639498EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			baseConfigurationReference = ED845466CD93793C50177620FD918B16 /* DropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -870,9 +1027,44 @@
 			};
 			name = Release;
 		};
+		CE01F342B25FC13242BD24A87FDDDDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4228988A0810383D5BE6B2D2E28FCB3 /* SCLAlertView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			baseConfigurationReference = BB59795B9E9E2C8541289EC236364776 /* DropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -954,20 +1146,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		484079E58316F3B5439F0B4B131CDDD5 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey" */ = {
+		4BA4190E459520E55CDB9229CC97FDD9 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FDD6032BB42F977C0BE5319C1F14A2E /* Debug */,
-				91E21D71E81B1CE6FD8725663AC5CD25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52226D3BFB6D0424E7F3C80CEB612A95 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey-covid20_surveyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F7B480EF09174A357BFD672BA8AC297 /* Debug */,
-				8B6FBDC990FEFA7B1D8139114D61212A /* Release */,
+				9F133C6B20D9ACF9778A04B01E53C740 /* Debug */,
+				CE01F342B25FC13242BD24A87FDDDDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -986,6 +1169,24 @@
 			buildConfigurations = (
 				620567653FB82168032D2EA38F35E660 /* Debug */,
 				E6C245569A84E1A949578FDB9C6F7471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D7E17E6746AC80EADEFEF2804CB296 /* Build configuration list for PBXNativeTarget "Pods-covid20_survey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC77DBD3A26553025B7DF52A976E12 /* Debug */,
+				6ECB12EA599ED71FE654B0401ED8F7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F698907769EA0C80E440CDCD2243D29C /* Build configuration list for PBXNativeTarget "Pods-covid20_survey-covid20_surveyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F869A412A9431AA3F918564B5553D8 /* Debug */,
+				094C08DE3AA8FA6F5109A6243996348D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

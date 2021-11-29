@@ -7,15 +7,22 @@
 
 import UIKit
 import DropDown
-
+import SCLAlertView
 class ViewController: UIViewController {
     @IBOutlet weak var vwDropdDown:UIView!
     @IBOutlet weak var lb1title:UILabel!
     
+    @IBOutlet var myButton: UIButton!
+    
+    
+    
     let dropDown = DropDown()
     let dropDownValues = ["omer","berdan"]
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         lb1title.text = "Select a city"
         // Do any additional setup after loading the view.
         dropDown.anchorView = vwDropdDown
@@ -24,6 +31,10 @@ class ViewController: UIViewController {
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             self.lb1title.text = dropDownValues[index]
         }
+        
+        
+        
+
 
         
     }
@@ -31,6 +42,12 @@ class ViewController: UIViewController {
     @IBAction func showCities(_ sender:Any){
         dropDown.show()
     }
-
+    
+    
+    @IBAction func didTapButton(_ sender:Any){
+        SCLAlertView().showInfo("Result", subTitle: "submission")
+    }
+    
+    
 }
 

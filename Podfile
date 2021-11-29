@@ -6,7 +6,7 @@ target 'covid20_survey' do
   use_frameworks!
 
 pod 'DropDown' 
-
+pod 'SCLAlertView'
 
   # Pods for covid20_survey
 
