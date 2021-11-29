@@ -143,6 +143,7 @@
                     </view>
                     <connections>
                         <outlet property="lb1title" destination="ePu-bI-r8y" id="YXz-Oa-kyX"/>
+                        <outlet property="name_surname" destination="uv2-9e-f1O" id="oSS-Dz-VsJ"/>
                         <outlet property="vwDropdDown" destination="3e9-Yo-iqz" id="PG4-Uc-foc"/>
                     </connections>
                 </viewController>

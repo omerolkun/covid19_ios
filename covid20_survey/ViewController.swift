@@ -9,6 +9,11 @@ import UIKit
 import DropDown
 import SCLAlertView
 class ViewController: UIViewController {
+    
+    //name surname input
+    @IBOutlet weak var name_surname:UITextField!
+    
+    
     @IBOutlet weak var vwDropdDown:UIView!
     @IBOutlet weak var lb1title:UILabel!
     
@@ -39,13 +44,23 @@ class ViewController: UIViewController {
         
     }
     
+    func check_len_name_surname(name: String)->Bool{
+        if name.count < 5{
+            return false
+        }
+        return true
+    }
+    
+    
+    
     @IBAction func showCities(_ sender:Any){
         dropDown.show()
     }
     
     
     @IBAction func didTapButton(_ sender:Any){
-        SCLAlertView().showInfo("Result", subTitle: "submission")
+        let x = name_surname.text!
+        SCLAlertView().showInfo("Result", subTitle: x)
     }
     
     
