@@ -17,8 +17,11 @@ class ViewController: UIViewController {
     
     // date variables
     @IBOutlet weak var birth_date_day:UITextField!
+    
     @IBOutlet weak var birth_date_month:UITextField!
     @IBOutlet weak var birth_date_year:UITextField!
+    
+    var day = 0
     
     
     // endof date variables
@@ -96,6 +99,21 @@ class ViewController: UIViewController {
     
     //endof functions for name surname
     
+    //date control functions
+    func check_day() -> Bool {
+        
+        day = Int(birth_date_day.text ?? "") ?? -100
+        print(day)
+        
+        if day < 1 || day > 31{
+            return false
+        }
+        
+        return true
+       
+    }
+    
+    
     // functions for genders
     @IBAction func select_male(_ sender: Any){
         male_button.setTitle("*MALE*", for: .normal)
@@ -146,6 +164,10 @@ class ViewController: UIViewController {
             if check_missing_surname(name: str_name_surname) == false{
                 result_message = result_message + "Missing Surname!\n"
             }
+        }
+        
+        if check_day() == false {
+            result_message = result_message + "Invalid day!\n"
         }
         
         if check_city_selected() == false {
