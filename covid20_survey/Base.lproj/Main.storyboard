@@ -100,6 +100,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Male"/>
                                 <connections>
                                     <action selector="select_male:" destination="BYZ-38-t0r" eventType="touchUpInside" id="koQ-Su-YPF"/>
+                                    <action selector="which_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPv-aQ-Klz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Changes on your body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1va-QI-qK8">
@@ -135,6 +136,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Female"/>
                                 <connections>
                                     <action selector="select_female:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zss-v5-Ta9"/>
+                                    <action selector="which_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXd-39-AmX"/>
                                 </connections>
                             </button>
                         </subviews>
