@@ -9,17 +9,24 @@ import UIKit
 import DropDown
 import SCLAlertView
 class ViewController: UIViewController {
+    var city = ""
     
     //name surname input
     @IBOutlet weak var name_surname:UITextField!
+    //endof name surname inputs
     
     
+    //city variables
     @IBOutlet weak var vwDropdDown:UIView!
     @IBOutlet weak var lb1title:UILabel!
+    
+    //endof city variables
+    
+    
     //gender buttons
     @IBOutlet weak var male_button:UIButton!
     @IBOutlet weak var female_button:UIButton!
-    var choice_sex = "No gender is selected"
+    var choice_sex = "Gender is not selected!"
     
     
     //endof gender buttons
@@ -51,7 +58,11 @@ class ViewController: UIViewController {
         //sdfgdhgfghgfgdgfhgdgtgfhg
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             self.lb1title.text = dropDownValues[index]
+            city = dropDownValues[index]
+            print(city)
         }
+        
+        //print(lb1title.text!)
         
         
         
@@ -92,14 +103,27 @@ class ViewController: UIViewController {
     
     // endof functions for genders
     
-    
+    //city functions
     @IBAction func showCities(_ sender:Any){
         dropDown.show()
     }
     
+    func check_city_selected()-> Bool{
+        if city == "" {
+            return false
+        }
+        return true
+    }
     
+    
+    
+    //endof city functions
     @IBAction func didTapButton(_ sender:Any){
         var  result_message = ""
+        
+        if check_city_selected() == false {
+            result_message = result_message + "City is not selected!\n"
+        }
         result_message = result_message + choice_sex
         SCLAlertView().showInfo("Result", subTitle: result_message)
     }
