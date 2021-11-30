@@ -93,23 +93,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-Eu-FDC">
-                                <rect key="frame" x="20" y="322" width="97" height="31"/>
+                                <rect key="frame" x="19" y="322" width="111" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Male"/>
                                 <connections>
                                     <action selector="select_male:" destination="BYZ-38-t0r" eventType="touchUpInside" id="koQ-Su-YPF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vka-Jd-dm4">
-                                <rect key="frame" x="125" y="321" width="97" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Female"/>
-                                <connections>
-                                    <action selector="select_female:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zss-v5-Ta9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Changes on your body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1va-QI-qK8">
@@ -135,6 +125,16 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="leS-EK-3Cj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vka-Jd-dm4">
+                                <rect key="frame" x="152" y="321" width="111" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Female"/>
+                                <connections>
+                                    <action selector="select_female:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zss-v5-Ta9"/>
                                 </connections>
                             </button>
                         </subviews>
