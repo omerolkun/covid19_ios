@@ -15,6 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var name_surname:UITextField!
     //endof name surname inputs
     
+    // date variables
+    @IBOutlet weak var birth_date_day:UITextField!
+    @IBOutlet weak var birth_date_month:UITextField!
+    @IBOutlet weak var birth_date_year:UITextField!
+    
+    
+    // endof date variables
     
     //city variables
     @IBOutlet weak var vwDropdDown:UIView!
