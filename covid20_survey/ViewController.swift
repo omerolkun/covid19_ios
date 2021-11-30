@@ -89,8 +89,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func didTapButton(_ sender:Any){
-        let x = name_surname.text!
-        SCLAlertView().showInfo("Result", subTitle: choice_sex)
+        var  result_message = ""
+        result_message = result_message + choice_sex
+        SCLAlertView().showInfo("Result", subTitle: result_message)
     }
     
     
