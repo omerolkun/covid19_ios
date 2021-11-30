@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     
     // date variables
     @IBOutlet weak var birth_date_day:UITextField!
-    
     @IBOutlet weak var birth_date_month:UITextField!
     @IBOutlet weak var birth_date_year:UITextField!
     
     var day = 0
-    
+    var month = 0
+    var year = 0
     
     // endof date variables
     
@@ -100,6 +100,7 @@ class ViewController: UIViewController {
     //endof functions for name surname
     
     //date control functions
+    //day check
     func check_day() -> Bool {
         
         day = Int(birth_date_day.text ?? "") ?? -100
@@ -112,6 +113,25 @@ class ViewController: UIViewController {
         return true
        
     }
+    // month check
+    func check_month()->Bool{
+        month = Int(birth_date_month.text ?? "") ?? -101
+        print(month)
+        if month < 1 || month > 12 {
+            return false
+        }
+        return true
+    }
+    func check_year()-> Bool{
+        year = Int(birth_date_year.text ?? "") ?? -102
+        if year < 1930 || year > 2014 {
+            return false
+        }
+        return true
+            
+    }
+    
+    
     
     
     // functions for genders
@@ -170,6 +190,12 @@ class ViewController: UIViewController {
             result_message = result_message + "Invalid day!\n"
         }
         
+        if check_month() == false {
+            result_message = result_message + "Invalid month!\n"
+        }
+        if check_year() == false{
+            result_message = result_message + "Invalid year!\n"
+        }
         if check_city_selected() == false {
             result_message = result_message + "City is not selected!\n"
         }
