@@ -153,6 +153,7 @@
                         <outlet property="birth_date_day" destination="30g-L4-4vH" id="kgm-Rv-QZi"/>
                         <outlet property="birth_date_month" destination="Gxz-cG-xaE" id="06F-vW-kWi"/>
                         <outlet property="birth_date_year" destination="aIg-uj-cim" id="4AN-Zh-ieW"/>
+                        <outlet property="change_input" destination="kbA-ZS-Rku" id="zk8-Aw-ARc"/>
                         <outlet property="female_button" destination="vka-Jd-dm4" id="2Vd-Jx-M90"/>
                         <outlet property="lb1title" destination="ePu-bI-r8y" id="YXz-Oa-kyX"/>
                         <outlet property="male_button" destination="vU6-Eu-FDC" id="8Ea-V4-gF8"/>

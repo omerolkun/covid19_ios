@@ -37,12 +37,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var male_button:UIButton!
     @IBOutlet weak var female_button:UIButton!
     var choice_sex = "Gender is not selected!"
-    
-    
     //endof gender buttons
     @IBOutlet var myButton: UIButton!
     
-    
+    // changes variable
+    @IBOutlet weak var change_input:UITextView!
+    // endof changes variable
     
     let dropDown = DropDown()
     let dropDownValues = [ "ADANA", "ADIYAMAN", "AFYONKARAHİSAR", "AĞRI", "AMASYA", "ANKARA",
@@ -130,7 +130,7 @@ class ViewController: UIViewController {
         return true
             
     }
-    
+    //endof date functions
     
     
     
@@ -169,14 +169,33 @@ class ViewController: UIViewController {
         }
         return true
     }
-    
-    
-    
     //endof city functions
+    
+    //change functions
+    func check_length_changes(str_change: String)->Bool{
+        print(str_change.count)
+        if str_change.count < 10 || str_change.count > 300{
+            return false
+        }
+        return true
+    }
+    
+    func check_changes_blank(str_change: String)-> Bool{
+        
+        if str_change.contains(" "){
+            return true
+        }
+        return false
+    }
+    //endofchange function
+    
+    
+    
+    
     @IBAction func didTapButton(_ sender:Any){
         var  result_message = ""
         var str_name_surname = name_surname.text!
-        
+        var str_changes = change_input.text!
         if check_len_name_surname(name: str_name_surname) == false{
             result_message = result_message + "Invalid name surname length\n"
         }
@@ -196,10 +215,18 @@ class ViewController: UIViewController {
         if check_year() == false{
             result_message = result_message + "Invalid year!\n"
         }
+        if choice_sex == "Gender is not selected!"{
+            result_message = result_message + choice_sex + "\n"
+             
+        }
+        
         if check_city_selected() == false {
             result_message = result_message + "City is not selected!\n"
         }
-        result_message = result_message + choice_sex
+        if check_length_changes(str_change: str_changes) == false{
+            result_message = result_message + "Changes length is invalid\n"
+        }
+        
         SCLAlertView().showInfo("Result", subTitle: result_message)
     }
     
