@@ -57,8 +57,13 @@ class ViewController: UIViewController {
     //endof functions for name surname
     
     // functions for genders
-    @IBAction func select_gender(_ sender: Any){
+    @IBAction func select_male(_ sender: Any){
         male_button.setTitle("*MALE*", for: .normal)
+        female_button.setTitle("Female",for: .normal)
+    }
+    @IBAction func select_female(_ sender: Any){
+        female_button.setTitle("*FEMALE*",for: .normal)
+        male_button.setTitle("Male",for: .normal)
     }
     
     

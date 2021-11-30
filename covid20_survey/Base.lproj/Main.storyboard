@@ -99,7 +99,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Male"/>
                                 <connections>
-                                    <action selector="select_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCd-uX-5Ca"/>
+                                    <action selector="select_male:" destination="BYZ-38-t0r" eventType="touchUpInside" id="koQ-Su-YPF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vka-Jd-dm4">
@@ -109,7 +109,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Female"/>
                                 <connections>
-                                    <action selector="select_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejK-O0-4sn"/>
+                                    <action selector="select_female:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zss-v5-Ta9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Changes on your body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1va-QI-qK8">
