@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     //endof city variables
     
     
-    //gender buttons
+    //gender buttons and variables
     @IBOutlet weak var male_button:UIButton!
     @IBOutlet weak var female_button:UIButton!
     var choice_sex = "Gender is not selected!"
@@ -49,6 +49,8 @@ class ViewController: UIViewController {
    
     
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         
         lb1title.text = "Select a city"
@@ -77,6 +79,14 @@ class ViewController: UIViewController {
         }
         return true
     }
+    
+    func check_missing_surname(name: String)->Bool{
+        if name.contains(" "){
+            return true
+        }
+        return false
+    }
+    
     //endof functions for name surname
     
     // functions for genders
@@ -120,6 +130,16 @@ class ViewController: UIViewController {
     //endof city functions
     @IBAction func didTapButton(_ sender:Any){
         var  result_message = ""
+        var str_name_surname = name_surname.text!
+        
+        if check_len_name_surname(name: str_name_surname) == false{
+            result_message = result_message + "Invalid name surname length\n"
+        }
+        if check_len_name_surname(name: str_name_surname) == true{
+            if check_missing_surname(name: str_name_surname) == false{
+                result_message = result_message + "Missing Surname!\n"
+            }
+        }
         
         if check_city_selected() == false {
             result_message = result_message + "City is not selected!\n"
