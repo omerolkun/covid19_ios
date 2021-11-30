@@ -98,6 +98,9 @@
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Male"/>
+                                <connections>
+                                    <action selector="select_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCd-uX-5Ca"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vka-Jd-dm4">
                                 <rect key="frame" x="125" y="321" width="97" height="31"/>
@@ -105,6 +108,9 @@
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Female"/>
+                                <connections>
+                                    <action selector="select_gender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejK-O0-4sn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Changes on your body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1va-QI-qK8">
                                 <rect key="frame" x="20" y="506" width="172" height="21"/>
@@ -142,7 +148,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="female_button" destination="vka-Jd-dm4" id="2Vd-Jx-M90"/>
                         <outlet property="lb1title" destination="ePu-bI-r8y" id="YXz-Oa-kyX"/>
+                        <outlet property="male_button" destination="vU6-Eu-FDC" id="8Ea-V4-gF8"/>
                         <outlet property="name_surname" destination="uv2-9e-f1O" id="oSS-Dz-VsJ"/>
                         <outlet property="vwDropdDown" destination="3e9-Yo-iqz" id="PG4-Uc-foc"/>
                     </connections>

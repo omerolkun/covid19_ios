@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var vwDropdDown:UIView!
     @IBOutlet weak var lb1title:UILabel!
+    //gender buttons
+    @IBOutlet weak var male_button:UIButton!
+    @IBOutlet weak var female_button:UIButton!
+    
     
     @IBOutlet var myButton: UIButton!
     
@@ -43,14 +47,22 @@ class ViewController: UIViewController {
 
         
     }
-    
+    // functions for name surname
     func check_len_name_surname(name: String)->Bool{
         if name.count < 5{
             return false
         }
         return true
     }
+    //endof functions for name surname
     
+    // functions for genders
+    @IBAction func select_gender(_ sender: Any){
+        male_button.setTitle("*MALE*", for: .normal)
+    }
+    
+    
+    // endof functions for genders
     
     
     @IBAction func showCities(_ sender:Any){
