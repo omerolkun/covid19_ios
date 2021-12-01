@@ -96,6 +96,45 @@ class ViewController: UIViewController {
         }
         return false
     }
+    func check_regex()->Bool{
+        
+            var x = name_surname.text!
+        
+            print("string lenght is")
+            
+            let emptySpacesCount = x.filter{$0 == " "}.count
+
+            print(x.count)
+            var letter = 0
+            var nonletter = 0
+            for chr in x {
+                if ((chr >= "a" && chr <= "z") || (chr >= "A" && chr <= "Z") ) {
+                         letter = letter + 1
+                     
+                      }
+                else{
+                    if chr != " "{
+                        nonletter = nonletter + 1
+                    }
+                    //return false
+                }
+            }
+            print(letter)
+            print(nonletter)
+            
+            if x.contains(" "){
+                print("string contains space")
+            }
+        print(emptySpacesCount)
+        if letter + emptySpacesCount == x.count{
+            return true
+        }
+        else{
+            return false
+        }
+        
+        }
+    
     
     //endof functions for name surname
     
@@ -199,6 +238,10 @@ class ViewController: UIViewController {
         if check_len_name_surname(name: str_name_surname) == false{
             result_message = result_message + "Invalid name surname length\n"
         }
+        if check_regex() == false{
+            print(check_regex())
+            result_message += "Name surname must include only letters\n"
+        }
         if check_len_name_surname(name: str_name_surname) == true{
             if check_missing_surname(name: str_name_surname) == false{
                 result_message = result_message + "Missing Surname!\n"
@@ -226,7 +269,7 @@ class ViewController: UIViewController {
         if check_length_changes(str_change: str_changes) == false{
             result_message = result_message + "Changes length is invalid\n"
         }
-        
+        check_regex()
         SCLAlertView().showInfo("Result", subTitle: result_message)
     }
     
