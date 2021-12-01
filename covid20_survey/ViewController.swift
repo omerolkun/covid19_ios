@@ -8,6 +8,7 @@
 import UIKit
 import DropDown
 import SCLAlertView
+import Foundation
 class ViewController: UIViewController {
     var city = ""
     
@@ -136,6 +137,19 @@ class ViewController: UIViewController {
         }
     
     
+    func check_subnames()->Bool{
+        let name = name_surname.text!
+        let fullNameArr = name.components(separatedBy: " ")
+        print(fullNameArr[0])
+        print(type(of: fullNameArr))
+        print(fullNameArr.count)
+        for xo in fullNameArr{
+            if xo.count < 3{
+                return false
+            }
+        }
+        return true
+    }
     //endof functions for name surname
     
     //date control functions
@@ -242,6 +256,10 @@ class ViewController: UIViewController {
             print(check_regex())
             result_message += "Name surname must include only letters\n"
         }
+        
+        if check_subnames() == false{
+            result_message += "Name length must be 3!\n"
+        }
         if check_len_name_surname(name: str_name_surname) == true{
             if check_missing_surname(name: str_name_surname) == false{
                 result_message = result_message + "Missing Surname!\n"
@@ -270,6 +288,7 @@ class ViewController: UIViewController {
             result_message = result_message + "Changes length is invalid\n"
         }
         check_regex()
+        check_subnames()
         SCLAlertView().showInfo("Result", subTitle: result_message)
     }
     
