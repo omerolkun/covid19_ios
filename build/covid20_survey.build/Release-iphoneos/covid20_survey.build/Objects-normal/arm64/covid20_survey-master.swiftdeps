@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "826e524012885e0458fbd60853ec237d94896b76eafde5fc855569143d2aa41d"
+build_start_time: [1638462118, 568780899]
+build_end_time: [1638462120, 796485900]
+inputs:
+  "/Users/macbook/OMEROLKUN/covid20_survey/covid20_survey/AppDelegate.swift": !dirty [1638166518, 992206096]
+  "/Users/macbook/OMEROLKUN/covid20_survey/covid20_survey/SceneDelegate.swift": !dirty [1638166518, 999821186]
+  "/Users/macbook/OMEROLKUN/covid20_survey/covid20_survey/ViewController.swift": !dirty [1638462101, 211574554]
