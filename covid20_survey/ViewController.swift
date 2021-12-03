@@ -289,7 +289,7 @@ class ViewController: UIViewController {
         }
         check_regex()
         check_subnames()
-        SCLAlertView().showInfo("Result", subTitle: result_message)
+        SCLAlertView().showInfo("Result", subTitle: "Succesful Submission!")
     }
     
     
